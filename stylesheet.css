@@ -241,6 +241,38 @@ p {
     #workingpatternlist, #workingpatternlistext {
         list-style: circle;
     }
+
+    #examplemicroprocessors {
+        border: 2px solid black;
+        background: whitesmoke;
+        margin: 20px;
+        padding: 10px;
+        display: inline-block;
+        width: 45%;
+        
+    }
+
+    #examplemicroprocessors, p {
+        text-align: center;
+        
+        
+
+    }
+
+    #explanationmicroprocessors {
+        border: 2px solid black;
+        background: whitesmoke;
+        margin: 20px;
+        padding: 10px;
+        width: 45%;
+        float: right;
+        height: 100%;
+        
+    }
+
+    #explanationmicroprocessors, p {
+        text-align: center;
+    }
     
     table {
         border-collapse: collapse;
@@ -290,5 +322,42 @@ p {
     #healthproblemtable {
         width: 95%;
     }
+
+    .activehomepage {
+        background-color: black;
+        color: whitesmoke;
+        padding: 2px;
+    }
+
+    .activeaboutpage {
+        background-color: black;
+        color: whitesmoke;
+        padding: 2px;
+    }
+
+    .activeemployment {
+        background-color: black;
+        color: whitesmoke;
+        padding: 2px;
+    }
+
+    .activeworkingpatterns {
+        background-color: black;
+        color: whitesmoke;
+        padding: 2px;
+    }
+
+    .activemicroprocessors {
+        background-color: black;
+        color: whitesmoke;
+        padding: 2px;
+    }
+
+    .activehealthproblems {
+        background-color: black;
+        color: whitesmoke;
+        padding: 2px;
+    }
+    
 
 
